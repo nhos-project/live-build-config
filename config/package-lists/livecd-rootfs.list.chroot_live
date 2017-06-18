@@ -1,0 +1,3 @@
+lupin-casper
+linux-signed-generic-hwe-16.04
+!chroot chroot apt-cache dumpavail | grep-dctrl -nsPackage \\( -XFArchitecture amd64 -o -XFArchitecture all \\) -a -wFTask ubuntu-gnome-live | grep -v xserver-xorg-input-vmmouse | sed -e 's/xserver-xorg.*/&-hwe-16.04/'

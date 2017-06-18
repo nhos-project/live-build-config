@@ -1,0 +1,6 @@
+!chroot chroot apt-cache dumpavail | grep-dctrl -nsPackage \\( -XFArchitecture amd64 -o -XFArchitecture all \\) -a -wFTask minimal | grep -v xserver-xorg-input-vmmouse | sed -e 's/xserver-xorg.*/&-hwe-16.04/'
+!chroot chroot apt-cache dumpavail | grep-dctrl -nsPackage \\( -XFArchitecture amd64 -o -XFArchitecture all \\) -a -wFTask standard | grep -v xserver-xorg-input-vmmouse | sed -e 's/xserver-xorg.*/&-hwe-16.04/'
+!chroot chroot apt-cache dumpavail | grep-dctrl -nsPackage \\( -XFArchitecture amd64 -o -XFArchitecture all \\) -a -wFTask ubuntu-gnome-desktop | grep -v xserver-xorg-input-vmmouse | sed -e 's/xserver-xorg.*/&-hwe-16.04/'
+xserver-xorg-hwe-16.04
+xserver-xorg-video-all-hwe-16.04
+xserver-xorg-input-all-hwe-16.04
