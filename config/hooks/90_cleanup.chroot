@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+echo "/usr/bin/ubuntu-defaults-image: Removing unnecessary files..."
+rm -vf /var/cache/apt/*cache.bin
+rm -vf /var/lib/apt/lists/*_Translation-*
+rm -vrf /tmp/*
