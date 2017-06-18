@@ -29,7 +29,7 @@ LB_APT_SECURE="true"
 
 # $LB_APT_SOURCE_ARCHIVES: set apt/aptitude source entries in sources.list
 # (Default: true)
-LB_APT_SOURCE_ARCHIVES="true"
+LB_APT_SOURCE_ARCHIVES="false"
 
 # $LB_BOOTSTRAP: set bootstrap program
 # (Default: debootstrap)
@@ -65,7 +65,7 @@ LB_DEBCONF_PRIORITY="critical"
 
 # $LB_INITRAMFS: set initramfs hook
 # (Default: auto)
-LB_INITRAMFS="auto"
+LB_INITRAMFS="casper"
 
 # $LB_INITRAMFS_COMPRESSION: set initramfs compression
 # (Default: gzip)
@@ -85,7 +85,7 @@ LB_LOSETUP="losetup"
 
 # $LB_MODE: set distribution mode
 # (Default: debian)
-LB_MODE="debian"
+LB_MODE="ubuntu"
 
 # $LB_SYSTEM: set system type
 # (Default: live)
