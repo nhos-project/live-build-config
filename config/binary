@@ -87,7 +87,10 @@ LB_ISO_PUBLISHER="Debian Live project; http://live.debian.net/; debian-live@list
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
 # (Default: Debian wheezy $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="NHSbuntu Xenial $(date +%Y%m%d-%H:%M)"
+LB_ISO_VOLUME="NHSbuntu xenial $(date +%Y%m%d-%H:%M)"
+
+# $LB_ISO_TITLE
+LB_ISO_TITLE="NHSbuntu"
 
 # $LB_EXT_BLOCKSIZE: set EXT block size
 # (Default: unset)
