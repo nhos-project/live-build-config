@@ -1,0 +1,11 @@
+--- lb_binary_disk      2017-06-22 00:06:02.876386984 +0000
++++ lb_binary_disk.new  2017-06-22 00:06:41.695809426 +0000
+@@ -61,7 +61,7 @@
+                ;;
+
+        ubuntu)
+-               TITLE="Ubuntu"
++               TITLE="${LB_ISO_TITLE}"
+                STRING="Build ${ARCHITECTURE}"
+                TRACE=""
+                ;;
