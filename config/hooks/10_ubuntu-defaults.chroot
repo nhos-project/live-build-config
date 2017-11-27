@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-HOOK=/usr/share/nhsbuntu-default-settings/hooks/chroot
+HOOK=/usr/share/nhos-default-settings/hooks/chroot
 if [ -x $HOOK ]; then
     $HOOK
 fi

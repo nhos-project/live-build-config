@@ -67,7 +67,7 @@ LB_GRUB_SPLASH=""
 
 # $LB_HDD_LABEL: set hdd label
 # (Default: DEBIAN_LIVE)
-LB_HDD_LABEL="NHSbuntu"
+LB_HDD_LABEL="NHoS"
 
 # $LB_HDD_SIZE: set hdd filesystem size
 # (Default: 10000)
@@ -75,7 +75,7 @@ LB_HDD_SIZE="10000"
 
 # $LB_ISO_APPLICATION: set iso author
 # (Default: Debian Live)
-LB_ISO_APPLICATION="NHSbuntu Live"
+LB_ISO_APPLICATION="NHoS Live"
 
 # $LB_ISO_PREPARER: set iso preparer
 # (Default: live-build $VERSION; http://packages.qa.debian.org/live-build)
@@ -87,10 +87,10 @@ LB_ISO_PUBLISHER="Debian Live project; http://live.debian.net/; debian-live@list
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
 # (Default: Debian wheezy $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="NHSbuntu xenial $(date +%Y%m%d-%H:%M)"
+LB_ISO_VOLUME="NHoS $(date +%Y%m%d-%H:%M)"
 
 # $LB_ISO_TITLE
-LB_ISO_TITLE="NHSbuntu"
+LB_ISO_TITLE="NHoS"
 
 # $LB_EXT_BLOCKSIZE: set EXT block size
 # (Default: unset)

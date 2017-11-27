@@ -4,7 +4,7 @@ set -e
 #uncomment this to just do a test run without actually installing/removing packages
 #TEST='echo WOULD RUN:'
 
-REQUESTED_LANGUAGES=/usr/share/nhsbuntu-default-settings/langpacks.txt
+REQUESTED_LANGUAGES=/usr/share/nhos-default-settings/langpacks.txt
 INSTALLED_LANGUAGES=/root/installed_languages
 NOREMOVE_PACKAGES=/root/noremove_packages
 

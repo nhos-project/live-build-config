@@ -1,5 +1,5 @@
 #!/bin/sh -e
-LOC=chroot/usr/share/nhsbuntu-default-settings/language.txt
+LOC=chroot/usr/share/nhos-default-settings/language.txt
 if [ -e "$LOC" ]; then
     echo "$0: $LOC exists, setting gfxboot default language..."
     cp "$LOC" binary/isolinux/lang

@@ -16,7 +16,7 @@ sudo apt install htop iotop iftop nmap lnav tmux
 ### Import config
 
 ```
-lb config --config https://github.com/NHSbuntu/live-build-config
+lb config --config https://github.com/nhos-project/live-build-config
 ```
 
 ### Patch live-build
@@ -28,8 +28,8 @@ patch /usr/lib/live/build/lb_binary_disk < patches/lb_binary_disk.patch
 ### Build
 
 ```
-export LB_ISO_TITLE="NHSbuntu"
-export LB_ISO_VOLUME="NHSbuntu xenial $(date +%Y%m%d-%H:%M)"
+export LB_ISO_TITLE="NHoS"
+export LB_ISO_VOLUME="NHoS $(date +%Y%m%d-%H:%M)"
 sudo -E lb build
 ```
 
